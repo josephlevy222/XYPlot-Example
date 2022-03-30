@@ -13,6 +13,36 @@
 		377DDD8227F4B00F0049BD40 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDD7027F4B00A0049BD40 /* ContentView.swift */; };
 		377DDD8327F4B00F0049BD40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 377DDD7127F4B00E0049BD40 /* Assets.xcassets */; };
 		377DDD8427F4B00F0049BD40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 377DDD7127F4B00E0049BD40 /* Assets.xcassets */; };
+		377DDDAE27F4B1640049BD40 /* AdjustAxis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDDA627F4B1640049BD40 /* AdjustAxis.swift */; };
+		377DDDAF27F4B1640049BD40 /* AdjustAxis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDDA627F4B1640049BD40 /* AdjustAxis.swift */; };
+		377DDDB027F4B1640049BD40 /* PlotSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDDA727F4B1640049BD40 /* PlotSettingsView.swift */; };
+		377DDDB127F4B1640049BD40 /* PlotSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDDA727F4B1640049BD40 /* PlotSettingsView.swift */; };
+		377DDDB227F4B1640049BD40 /* CaptureSize+RotatedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDDA827F4B1640049BD40 /* CaptureSize+RotatedText.swift */; };
+		377DDDB327F4B1640049BD40 /* CaptureSize+RotatedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDDA827F4B1640049BD40 /* CaptureSize+RotatedText.swift */; };
+		377DDDB427F4B1640049BD40 /* LegendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDDA927F4B1640049BD40 /* LegendView.swift */; };
+		377DDDB527F4B1640049BD40 /* LegendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDDA927F4B1640049BD40 /* LegendView.swift */; };
+		377DDDB627F4B1640049BD40 /* CheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDDAA27F4B1640049BD40 /* CheckBoxView.swift */; };
+		377DDDB727F4B1640049BD40 /* CheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDDAA27F4B1640049BD40 /* CheckBoxView.swift */; };
+		377DDDB827F4B1640049BD40 /* PlotLineDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDDAB27F4B1640049BD40 /* PlotLineDialog.swift */; };
+		377DDDB927F4B1640049BD40 /* PlotLineDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDDAB27F4B1640049BD40 /* PlotLineDialog.swift */; };
+		377DDDBA27F4B1640049BD40 /* XYPlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDDAC27F4B1640049BD40 /* XYPlot.swift */; };
+		377DDDBB27F4B1640049BD40 /* XYPlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDDAC27F4B1640049BD40 /* XYPlot.swift */; };
+		377DDDBC27F4B1640049BD40 /* PlotPointShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDDAD27F4B1640049BD40 /* PlotPointShapes.swift */; };
+		377DDDBD27F4B1640049BD40 /* PlotPointShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDDAD27F4B1640049BD40 /* PlotPointShapes.swift */; };
+		377DDDF227F4BAE60049BD40 /* String+Numeric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDDEE27F4BAE60049BD40 /* String+Numeric.swift */; };
+		377DDDF327F4BAE60049BD40 /* String+Numeric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDDEE27F4BAE60049BD40 /* String+Numeric.swift */; };
+		377DDDF427F4BAE60049BD40 /* NumberFormatter+NumericString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDDEF27F4BAE60049BD40 /* NumberFormatter+NumericString.swift */; };
+		377DDDF527F4BAE60049BD40 /* NumberFormatter+NumericString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDDEF27F4BAE60049BD40 /* NumberFormatter+NumericString.swift */; };
+		377DDDF627F4BAE60049BD40 /* NumericTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDDF027F4BAE60049BD40 /* NumericTextField.swift */; };
+		377DDDF727F4BAE60049BD40 /* NumericTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDDF027F4BAE60049BD40 /* NumericTextField.swift */; };
+		377DDDF827F4BAE60049BD40 /* NumericTextModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDDF127F4BAE60049BD40 /* NumericTextModifier.swift */; };
+		377DDDF927F4BAE60049BD40 /* NumericTextModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDDF127F4BAE60049BD40 /* NumericTextModifier.swift */; };
+		377DDDFD27F4BB210049BD40 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDDFA27F4BB210049BD40 /* ColorExtension.swift */; };
+		377DDDFE27F4BB210049BD40 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDDFA27F4BB210049BD40 /* ColorExtension.swift */; };
+		377DDDFF27F4BB210049BD40 /* HTMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDDFB27F4BB210049BD40 /* HTMLParser.swift */; };
+		377DDE0027F4BB210049BD40 /* HTMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDDFB27F4BB210049BD40 /* HTMLParser.swift */; };
+		377DDE0127F4BB210049BD40 /* DropdownMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDDFC27F4BB210049BD40 /* DropdownMenu.swift */; };
+		377DDE0227F4BB210049BD40 /* DropdownMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDDFC27F4BB210049BD40 /* DropdownMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +52,21 @@
 		377DDD7627F4B00F0049BD40 /* XYPlot-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XYPlot-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		377DDD7C27F4B00F0049BD40 /* XYPlot-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XYPlot-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		377DDD7E27F4B00F0049BD40 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		377DDDA627F4B1640049BD40 /* AdjustAxis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AdjustAxis.swift; path = ../../AdjustAxis.swift; sourceTree = "<group>"; };
+		377DDDA727F4B1640049BD40 /* PlotSettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlotSettingsView.swift; path = ../../PlotSettingsView.swift; sourceTree = "<group>"; };
+		377DDDA827F4B1640049BD40 /* CaptureSize+RotatedText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CaptureSize+RotatedText.swift"; path = "../../CaptureSize+RotatedText.swift"; sourceTree = "<group>"; };
+		377DDDA927F4B1640049BD40 /* LegendView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LegendView.swift; path = ../../LegendView.swift; sourceTree = "<group>"; };
+		377DDDAA27F4B1640049BD40 /* CheckBoxView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CheckBoxView.swift; path = ../../CheckBoxView.swift; sourceTree = "<group>"; };
+		377DDDAB27F4B1640049BD40 /* PlotLineDialog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlotLineDialog.swift; path = ../../PlotLineDialog.swift; sourceTree = "<group>"; };
+		377DDDAC27F4B1640049BD40 /* XYPlot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = XYPlot.swift; path = ../../XYPlot.swift; sourceTree = "<group>"; };
+		377DDDAD27F4B1640049BD40 /* PlotPointShapes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlotPointShapes.swift; path = ../../PlotPointShapes.swift; sourceTree = "<group>"; };
+		377DDDEE27F4BAE60049BD40 /* String+Numeric.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+Numeric.swift"; path = "NumericTextField/String+Numeric.swift"; sourceTree = "<group>"; };
+		377DDDEF27F4BAE60049BD40 /* NumberFormatter+NumericString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NumberFormatter+NumericString.swift"; path = "NumericTextField/NumberFormatter+NumericString.swift"; sourceTree = "<group>"; };
+		377DDDF027F4BAE60049BD40 /* NumericTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NumericTextField.swift; path = NumericTextField/NumericTextField.swift; sourceTree = "<group>"; };
+		377DDDF127F4BAE60049BD40 /* NumericTextModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NumericTextModifier.swift; path = NumericTextField/NumericTextModifier.swift; sourceTree = "<group>"; };
+		377DDDFA27F4BB210049BD40 /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColorExtension.swift; path = "../../../SwiftUI-Utilities/ColorExtension.swift"; sourceTree = "<group>"; };
+		377DDDFB27F4BB210049BD40 /* HTMLParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HTMLParser.swift; path = "../../../SwiftUI-Utilities/HTMLParser.swift"; sourceTree = "<group>"; };
+		377DDDFC27F4BB210049BD40 /* DropdownMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DropdownMenu.swift; path = "../../../SwiftUI-Utilities/DropdownMenu.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +99,21 @@
 		377DDD6E27F4B00A0049BD40 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				377DDDFA27F4BB210049BD40 /* ColorExtension.swift */,
+				377DDDFC27F4BB210049BD40 /* DropdownMenu.swift */,
+				377DDDFB27F4BB210049BD40 /* HTMLParser.swift */,
+				377DDDEF27F4BAE60049BD40 /* NumberFormatter+NumericString.swift */,
+				377DDDF027F4BAE60049BD40 /* NumericTextField.swift */,
+				377DDDF127F4BAE60049BD40 /* NumericTextModifier.swift */,
+				377DDDEE27F4BAE60049BD40 /* String+Numeric.swift */,
+				377DDDA627F4B1640049BD40 /* AdjustAxis.swift */,
+				377DDDA827F4B1640049BD40 /* CaptureSize+RotatedText.swift */,
+				377DDDAA27F4B1640049BD40 /* CheckBoxView.swift */,
+				377DDDA927F4B1640049BD40 /* LegendView.swift */,
+				377DDDAB27F4B1640049BD40 /* PlotLineDialog.swift */,
+				377DDDAD27F4B1640049BD40 /* PlotPointShapes.swift */,
+				377DDDA727F4B1640049BD40 /* PlotSettingsView.swift */,
+				377DDDAC27F4B1640049BD40 /* XYPlot.swift */,
 				377DDD6F27F4B00A0049BD40 /* XYPlot_ExampleApp.swift */,
 				377DDD7027F4B00A0049BD40 /* ContentView.swift */,
 				377DDD7127F4B00E0049BD40 /* Assets.xcassets */,
@@ -176,8 +236,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				377DDDB627F4B1640049BD40 /* CheckBoxView.swift in Sources */,
+				377DDDB027F4B1640049BD40 /* PlotSettingsView.swift in Sources */,
+				377DDDB427F4B1640049BD40 /* LegendView.swift in Sources */,
+				377DDDF627F4BAE60049BD40 /* NumericTextField.swift in Sources */,
+				377DDDBC27F4B1640049BD40 /* PlotPointShapes.swift in Sources */,
+				377DDDF427F4BAE60049BD40 /* NumberFormatter+NumericString.swift in Sources */,
+				377DDDBA27F4B1640049BD40 /* XYPlot.swift in Sources */,
 				377DDD8127F4B00F0049BD40 /* ContentView.swift in Sources */,
 				377DDD7F27F4B00F0049BD40 /* XYPlot_ExampleApp.swift in Sources */,
+				377DDDFD27F4BB210049BD40 /* ColorExtension.swift in Sources */,
+				377DDDAE27F4B1640049BD40 /* AdjustAxis.swift in Sources */,
+				377DDE0127F4BB210049BD40 /* DropdownMenu.swift in Sources */,
+				377DDDB827F4B1640049BD40 /* PlotLineDialog.swift in Sources */,
+				377DDDB227F4B1640049BD40 /* CaptureSize+RotatedText.swift in Sources */,
+				377DDDFF27F4BB210049BD40 /* HTMLParser.swift in Sources */,
+				377DDDF227F4BAE60049BD40 /* String+Numeric.swift in Sources */,
+				377DDDF827F4BAE60049BD40 /* NumericTextModifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,8 +260,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				377DDDB727F4B1640049BD40 /* CheckBoxView.swift in Sources */,
+				377DDDB127F4B1640049BD40 /* PlotSettingsView.swift in Sources */,
+				377DDDB527F4B1640049BD40 /* LegendView.swift in Sources */,
+				377DDDF727F4BAE60049BD40 /* NumericTextField.swift in Sources */,
+				377DDDBD27F4B1640049BD40 /* PlotPointShapes.swift in Sources */,
+				377DDDF527F4BAE60049BD40 /* NumberFormatter+NumericString.swift in Sources */,
+				377DDDBB27F4B1640049BD40 /* XYPlot.swift in Sources */,
 				377DDD8227F4B00F0049BD40 /* ContentView.swift in Sources */,
 				377DDD8027F4B00F0049BD40 /* XYPlot_ExampleApp.swift in Sources */,
+				377DDDFE27F4BB210049BD40 /* ColorExtension.swift in Sources */,
+				377DDDAF27F4B1640049BD40 /* AdjustAxis.swift in Sources */,
+				377DDE0227F4BB210049BD40 /* DropdownMenu.swift in Sources */,
+				377DDDB927F4B1640049BD40 /* PlotLineDialog.swift in Sources */,
+				377DDDB327F4B1640049BD40 /* CaptureSize+RotatedText.swift in Sources */,
+				377DDE0027F4BB210049BD40 /* HTMLParser.swift in Sources */,
+				377DDDF327F4BAE60049BD40 /* String+Numeric.swift in Sources */,
+				377DDDF927F4BAE60049BD40 /* NumericTextModifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
