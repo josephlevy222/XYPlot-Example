@@ -43,7 +43,6 @@ struct ContentView: View {
                 plotThis.scaleAxes()
             }
             XYPlot(data: $plotThis).padding()
-               //.frame(width: 800, height: 800)
                .onAppear { plotThis.settings = settings; plotThis.scaleAxes() }
         }
     }
