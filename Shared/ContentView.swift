@@ -7,15 +7,15 @@
 import SwiftUI
 
 struct ContentView: View {
-
+    let largeTitleFont = AttributeContainer()
     var settings  = PlotSettings(
-        title: AttributedString("Also a very very long plot title"),
-        xAxis: AxisParameters(title:  AttributedString("Much Longer Horizontal Axis Title")),
-        yAxis: AxisParameters(title: AttributedString("Incredibly Long Vertical Axis Title")),
-        sAxis: AxisParameters(title: AttributedString("Smaller Font Secondary Axis Title"))
+        title: { var a = AttributedString("Also a very very long plot title"); a.font = .largeTitle; return a }(),
+        xAxis: AxisParameters(title: { var a = AttributedString("Much Longer Horizontal Axis Title"); a.font = .title2; return a }() ),
+        yAxis: AxisParameters(title: { var a = AttributedString("Incredibly Long Vertical Axis Title"); a.font = .title2; return a }() ),
+        sAxis: AxisParameters(title: { var a = AttributedString("Smaller Font Secondary Axis Title"); a.font = .title2; return a }() )
     )
-
-    @State var plotThis = testPlotLines  // assigns original lines
+    
+    @State var plotThis = testPlotLines  // assigns original lines defined in XYPlot.swift
 
     var body: some View {
         VStack {
