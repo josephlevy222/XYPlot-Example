@@ -10,7 +10,7 @@ extension AttributedString {
     func setFont(_ newFont: Font) -> AttributedString {
         var a = self
         a.font = newFont
-        return self
+        return a
     }
  }
 
