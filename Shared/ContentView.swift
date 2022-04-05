@@ -5,21 +5,21 @@
 //  Created by Joseph Levy on 12/5/21.
 //
 import SwiftUI
-
+import Utilities
 extension AttributedString {
-    func setFont(_ newFont: Font) -> AttributedString {
+    func setFont(to: Font) -> AttributedString {
         var a = self
-        a.font = newFont
+        a.font = to
         return a
     }
  }
 
 struct ContentView: View {
     var settings  = PlotSettings(
-        title: AttributedString("Also a very very long plot title").setFont(.largeTitle),
-        xAxis: AxisParameters(title: AttributedString("Much Longer Horizontal Axis Title").setFont(.title2) ),
-        yAxis: AxisParameters(title: AttributedString("Incredibly Long Vertical Axis Title").setFont(.title2) ),
-        sAxis: AxisParameters(title: AttributedString("Smaller Font Secondary Axis Title").setFont(.title2) )
+        title: AttributedString("Also a very very long plot title").setFont(to: .largeTitle),
+        xAxis: AxisParameters(title: AttributedString("Much Longer Horizontal Axis Title").setFont(to: .title2) ),
+        yAxis: AxisParameters(title: AttributedString("Incredibly Long Vertical Axis Title").setFont(to: .title2) ),
+        sAxis: AxisParameters(title: AttributedString("Smaller Font Secondary Axis Title").setFont(to: .title2) )
     )
     
     @State var plotThis = testPlotLines  // assigns original lines defined in XYPlot.swift
