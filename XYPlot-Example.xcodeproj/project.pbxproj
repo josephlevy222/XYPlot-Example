@@ -7,33 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3716DD3027FCE49500FA7A19 /* XYPlot in Frameworks */ = {isa = PBXBuildFile; productRef = 3716DD2F27FCE49500FA7A19 /* XYPlot */; };
+		3716DD3327FCE4AD00FA7A19 /* XYPlot in Frameworks */ = {isa = PBXBuildFile; productRef = 3716DD3227FCE4AD00FA7A19 /* XYPlot */; };
+		37546D2627FCC74100963538 /* Utilities in Frameworks */ = {isa = PBXBuildFile; productRef = 37546D2527FCC74100963538 /* Utilities */; };
+		37546D2827FCC74900963538 /* NumericTextField in Frameworks */ = {isa = PBXBuildFile; productRef = 37546D2727FCC74900963538 /* NumericTextField */; };
 		377DDD7F27F4B00F0049BD40 /* XYPlot_ExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDD6F27F4B00A0049BD40 /* XYPlot_ExampleApp.swift */; };
 		377DDD8027F4B00F0049BD40 /* XYPlot_ExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDD6F27F4B00A0049BD40 /* XYPlot_ExampleApp.swift */; };
 		377DDD8127F4B00F0049BD40 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDD7027F4B00A0049BD40 /* ContentView.swift */; };
 		377DDD8227F4B00F0049BD40 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDD7027F4B00A0049BD40 /* ContentView.swift */; };
 		377DDD8327F4B00F0049BD40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 377DDD7127F4B00E0049BD40 /* Assets.xcassets */; };
 		377DDD8427F4B00F0049BD40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 377DDD7127F4B00E0049BD40 /* Assets.xcassets */; };
-		377DDDAE27F4B1640049BD40 /* AdjustAxis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDDA627F4B1640049BD40 /* AdjustAxis.swift */; };
-		377DDDAF27F4B1640049BD40 /* AdjustAxis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDDA627F4B1640049BD40 /* AdjustAxis.swift */; };
-		377DDDB027F4B1640049BD40 /* PlotSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDDA727F4B1640049BD40 /* PlotSettingsView.swift */; };
-		377DDDB127F4B1640049BD40 /* PlotSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDDA727F4B1640049BD40 /* PlotSettingsView.swift */; };
-		377DDDB427F4B1640049BD40 /* LegendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDDA927F4B1640049BD40 /* LegendView.swift */; };
-		377DDDB527F4B1640049BD40 /* LegendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDDA927F4B1640049BD40 /* LegendView.swift */; };
-		377DDDB827F4B1640049BD40 /* PlotLineDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDDAB27F4B1640049BD40 /* PlotLineDialog.swift */; };
-		377DDDB927F4B1640049BD40 /* PlotLineDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDDAB27F4B1640049BD40 /* PlotLineDialog.swift */; };
-		377DDDBA27F4B1640049BD40 /* XYPlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDDAC27F4B1640049BD40 /* XYPlot.swift */; };
-		377DDDBB27F4B1640049BD40 /* XYPlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDDAC27F4B1640049BD40 /* XYPlot.swift */; };
-		377DDDBC27F4B1640049BD40 /* PlotPointShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDDAD27F4B1640049BD40 /* PlotPointShapes.swift */; };
-		377DDDBD27F4B1640049BD40 /* PlotPointShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDDAD27F4B1640049BD40 /* PlotPointShapes.swift */; };
-		377DDDF227F4BAE60049BD40 /* String+Numeric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDDEE27F4BAE60049BD40 /* String+Numeric.swift */; };
-		377DDDF327F4BAE60049BD40 /* String+Numeric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDDEE27F4BAE60049BD40 /* String+Numeric.swift */; };
-		377DDDF427F4BAE60049BD40 /* NumberFormatter+NumericString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDDEF27F4BAE60049BD40 /* NumberFormatter+NumericString.swift */; };
-		377DDDF527F4BAE60049BD40 /* NumberFormatter+NumericString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDDEF27F4BAE60049BD40 /* NumberFormatter+NumericString.swift */; };
-		377DDDF627F4BAE60049BD40 /* NumericTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDDF027F4BAE60049BD40 /* NumericTextField.swift */; };
-		377DDDF727F4BAE60049BD40 /* NumericTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDDF027F4BAE60049BD40 /* NumericTextField.swift */; };
-		377DDDF827F4BAE60049BD40 /* NumericTextModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDDF127F4BAE60049BD40 /* NumericTextModifier.swift */; };
-		377DDDF927F4BAE60049BD40 /* NumericTextModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDDF127F4BAE60049BD40 /* NumericTextModifier.swift */; };
 		37FCFCFE27FBBD9F00EDC543 /* Utilities in Frameworks */ = {isa = PBXBuildFile; productRef = 37FCFCFD27FBBD9F00EDC543 /* Utilities */; };
+		37FCFD0127FCB66E00EDC543 /* NumericTextField in Frameworks */ = {isa = PBXBuildFile; productRef = 37FCFD0027FCB66E00EDC543 /* NumericTextField */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,16 +28,6 @@
 		377DDD7627F4B00F0049BD40 /* XYPlot-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XYPlot-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		377DDD7C27F4B00F0049BD40 /* XYPlot-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XYPlot-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		377DDD7E27F4B00F0049BD40 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
-		377DDDA627F4B1640049BD40 /* AdjustAxis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AdjustAxis.swift; path = ../../AdjustAxis.swift; sourceTree = "<group>"; };
-		377DDDA727F4B1640049BD40 /* PlotSettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlotSettingsView.swift; path = ../../PlotSettingsView.swift; sourceTree = "<group>"; };
-		377DDDA927F4B1640049BD40 /* LegendView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LegendView.swift; path = ../../LegendView.swift; sourceTree = "<group>"; };
-		377DDDAB27F4B1640049BD40 /* PlotLineDialog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlotLineDialog.swift; path = ../../PlotLineDialog.swift; sourceTree = "<group>"; };
-		377DDDAC27F4B1640049BD40 /* XYPlot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = XYPlot.swift; path = ../../XYPlot.swift; sourceTree = "<group>"; };
-		377DDDAD27F4B1640049BD40 /* PlotPointShapes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlotPointShapes.swift; path = ../../PlotPointShapes.swift; sourceTree = "<group>"; };
-		377DDDEE27F4BAE60049BD40 /* String+Numeric.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+Numeric.swift"; path = "NumericTextField/String+Numeric.swift"; sourceTree = "<group>"; };
-		377DDDEF27F4BAE60049BD40 /* NumberFormatter+NumericString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NumberFormatter+NumericString.swift"; path = "NumericTextField/NumberFormatter+NumericString.swift"; sourceTree = "<group>"; };
-		377DDDF027F4BAE60049BD40 /* NumericTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NumericTextField.swift; path = NumericTextField/NumericTextField.swift; sourceTree = "<group>"; };
-		377DDDF127F4BAE60049BD40 /* NumericTextModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NumericTextModifier.swift; path = NumericTextField/NumericTextModifier.swift; sourceTree = "<group>"; };
 		377DDE0327F602A00049BD40 /* XYPlot-Example (iOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "XYPlot-Example (iOS).entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,7 +36,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37FCFD0127FCB66E00EDC543 /* NumericTextField in Frameworks */,
 				37FCFCFE27FBBD9F00EDC543 /* Utilities in Frameworks */,
+				3716DD3027FCE49500FA7A19 /* XYPlot in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,12 +46,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37546D2827FCC74900963538 /* NumericTextField in Frameworks */,
+				37546D2627FCC74100963538 /* Utilities in Frameworks */,
+				3716DD3327FCE4AD00FA7A19 /* XYPlot in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		37546D2427FCC74100963538 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		377DDD6927F4B00A0049BD40 = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +69,7 @@
 				377DDD6E27F4B00A0049BD40 /* Shared */,
 				377DDD7D27F4B00F0049BD40 /* macOS */,
 				377DDD7727F4B00F0049BD40 /* Products */,
+				37546D2427FCC74100963538 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 			usesTabs = 0;
@@ -89,16 +77,6 @@
 		377DDD6E27F4B00A0049BD40 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				377DDDEF27F4BAE60049BD40 /* NumberFormatter+NumericString.swift */,
-				377DDDF027F4BAE60049BD40 /* NumericTextField.swift */,
-				377DDDF127F4BAE60049BD40 /* NumericTextModifier.swift */,
-				377DDDEE27F4BAE60049BD40 /* String+Numeric.swift */,
-				377DDDA627F4B1640049BD40 /* AdjustAxis.swift */,
-				377DDDA927F4B1640049BD40 /* LegendView.swift */,
-				377DDDAB27F4B1640049BD40 /* PlotLineDialog.swift */,
-				377DDDAD27F4B1640049BD40 /* PlotPointShapes.swift */,
-				377DDDA727F4B1640049BD40 /* PlotSettingsView.swift */,
-				377DDDAC27F4B1640049BD40 /* XYPlot.swift */,
 				377DDD6F27F4B00A0049BD40 /* XYPlot_ExampleApp.swift */,
 				377DDD7027F4B00A0049BD40 /* ContentView.swift */,
 				377DDD7127F4B00E0049BD40 /* Assets.xcassets */,
@@ -141,6 +119,8 @@
 			name = "XYPlot-Example (iOS)";
 			packageProductDependencies = (
 				37FCFCFD27FBBD9F00EDC543 /* Utilities */,
+				37FCFD0027FCB66E00EDC543 /* NumericTextField */,
+				3716DD2F27FCE49500FA7A19 /* XYPlot */,
 			);
 			productName = "XYPlot-Example (iOS)";
 			productReference = 377DDD7627F4B00F0049BD40 /* XYPlot-Example.app */;
@@ -159,6 +139,11 @@
 			dependencies = (
 			);
 			name = "XYPlot-Example (macOS)";
+			packageProductDependencies = (
+				37546D2527FCC74100963538 /* Utilities */,
+				37546D2727FCC74900963538 /* NumericTextField */,
+				3716DD3227FCE4AD00FA7A19 /* XYPlot */,
+			);
 			productName = "XYPlot-Example (macOS)";
 			productReference = 377DDD7C27F4B00F0049BD40 /* XYPlot-Example.app */;
 			productType = "com.apple.product-type.application";
@@ -192,6 +177,8 @@
 			mainGroup = 377DDD6927F4B00A0049BD40;
 			packageReferences = (
 				37FCFCFC27FBBD9F00EDC543 /* XCRemoteSwiftPackageReference "Utilities" */,
+				37FCFCFF27FCB66E00EDC543 /* XCRemoteSwiftPackageReference "NumericTextField" */,
+				3716DD2E27FCE49500FA7A19 /* XCRemoteSwiftPackageReference "XYPlot" */,
 			);
 			productRefGroup = 377DDD7727F4B00F0049BD40 /* Products */;
 			projectDirPath = "";
@@ -227,18 +214,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				377DDDB027F4B1640049BD40 /* PlotSettingsView.swift in Sources */,
-				377DDDB427F4B1640049BD40 /* LegendView.swift in Sources */,
-				377DDDF627F4BAE60049BD40 /* NumericTextField.swift in Sources */,
-				377DDDBC27F4B1640049BD40 /* PlotPointShapes.swift in Sources */,
-				377DDDF427F4BAE60049BD40 /* NumberFormatter+NumericString.swift in Sources */,
-				377DDDBA27F4B1640049BD40 /* XYPlot.swift in Sources */,
 				377DDD8127F4B00F0049BD40 /* ContentView.swift in Sources */,
 				377DDD7F27F4B00F0049BD40 /* XYPlot_ExampleApp.swift in Sources */,
-				377DDDAE27F4B1640049BD40 /* AdjustAxis.swift in Sources */,
-				377DDDB827F4B1640049BD40 /* PlotLineDialog.swift in Sources */,
-				377DDDF227F4BAE60049BD40 /* String+Numeric.swift in Sources */,
-				377DDDF827F4BAE60049BD40 /* NumericTextModifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,18 +223,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				377DDDB127F4B1640049BD40 /* PlotSettingsView.swift in Sources */,
-				377DDDB527F4B1640049BD40 /* LegendView.swift in Sources */,
-				377DDDF727F4BAE60049BD40 /* NumericTextField.swift in Sources */,
-				377DDDBD27F4B1640049BD40 /* PlotPointShapes.swift in Sources */,
-				377DDDF527F4BAE60049BD40 /* NumberFormatter+NumericString.swift in Sources */,
-				377DDDBB27F4B1640049BD40 /* XYPlot.swift in Sources */,
 				377DDD8227F4B00F0049BD40 /* ContentView.swift in Sources */,
 				377DDD8027F4B00F0049BD40 /* XYPlot_ExampleApp.swift in Sources */,
-				377DDDAF27F4B1640049BD40 /* AdjustAxis.swift in Sources */,
-				377DDDB927F4B1640049BD40 /* PlotLineDialog.swift in Sources */,
-				377DDDF327F4BAE60049BD40 /* String+Numeric.swift in Sources */,
-				377DDDF927F4BAE60049BD40 /* NumericTextModifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,7 +282,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -369,7 +336,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -388,6 +355,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = C7S45947T7;
 				ENABLE_PREVIEWS = YES;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -425,6 +393,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = C7S45947T7;
 				ENABLE_PREVIEWS = YES;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -464,13 +433,15 @@
 				DEVELOPMENT_TEAM = C7S45947T7;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MoundCitySoftware.XYPlot-Example";
 				PRODUCT_NAME = "XYPlot-Example";
@@ -492,13 +463,15 @@
 				DEVELOPMENT_TEAM = C7S45947T7;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MoundCitySoftware.XYPlot-Example";
 				PRODUCT_NAME = "XYPlot-Example";
@@ -541,6 +514,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		3716DD2E27FCE49500FA7A19 /* XCRemoteSwiftPackageReference "XYPlot" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/josephlevy222/XYPlot.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 		37FCFCFC27FBBD9F00EDC543 /* XCRemoteSwiftPackageReference "Utilities" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/josephlevy222/Utilities.git";
@@ -549,13 +530,46 @@
 				kind = branch;
 			};
 		};
+		37FCFCFF27FCB66E00EDC543 /* XCRemoteSwiftPackageReference "NumericTextField" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/josephlevy222/NumericTextField.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		3716DD2F27FCE49500FA7A19 /* XYPlot */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3716DD2E27FCE49500FA7A19 /* XCRemoteSwiftPackageReference "XYPlot" */;
+			productName = XYPlot;
+		};
+		3716DD3227FCE4AD00FA7A19 /* XYPlot */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3716DD2E27FCE49500FA7A19 /* XCRemoteSwiftPackageReference "XYPlot" */;
+			productName = XYPlot;
+		};
+		37546D2527FCC74100963538 /* Utilities */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 37FCFCFC27FBBD9F00EDC543 /* XCRemoteSwiftPackageReference "Utilities" */;
+			productName = Utilities;
+		};
+		37546D2727FCC74900963538 /* NumericTextField */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 37FCFCFF27FCB66E00EDC543 /* XCRemoteSwiftPackageReference "NumericTextField" */;
+			productName = NumericTextField;
+		};
 		37FCFCFD27FBBD9F00EDC543 /* Utilities */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 37FCFCFC27FBBD9F00EDC543 /* XCRemoteSwiftPackageReference "Utilities" */;
 			productName = Utilities;
+		};
+		37FCFD0027FCB66E00EDC543 /* NumericTextField */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 37FCFCFF27FCB66E00EDC543 /* XCRemoteSwiftPackageReference "NumericTextField" */;
+			productName = NumericTextField;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

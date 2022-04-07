@@ -6,6 +6,8 @@
 //
 import SwiftUI
 import Utilities
+import XYPlot
+
 extension AttributedString {
     func setFont(to: Font) -> AttributedString {
         var a = self
