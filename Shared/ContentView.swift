@@ -8,20 +8,12 @@ import SwiftUI
 import Utilities
 import XYPlot
 
-extension AttributedString {
-    func setFont(to: Font) -> AttributedString {
-        var a = self
-        a.font = to
-        return a
-    }
- }
-
 struct ContentView: View {
     var settings  = PlotSettings(
-        title: AttributedString("Also a very very long plot title").setFont(to: .largeTitle),
-        xAxis: AxisParameters(title: AttributedString("Much Longer Horizontal Axis Title").setFont(to: .title2) ),
-        yAxis: AxisParameters(title: AttributedString("Incredibly Long Vertical Axis Title").setFont(to: .title2) ),
-        sAxis: AxisParameters(title: AttributedString("Smaller Font Secondary Axis Title").setFont(to: .title2) )
+        title: "# **Also a very very long plot title**",
+        xAxis: AxisParameters(title: "## Much Longer Horizontal Axis Title"),
+        yAxis: AxisParameters(title: "## Incredibly Long Vertical Axis Title" ),
+        sAxis: AxisParameters(title: "### Smaller Font Secondary Axis Title")
     )
     
     @State var plotThis = testPlotLines  // assigns original lines defined in XYPlot.swift
@@ -52,7 +44,12 @@ struct ContentView: View {
                 plotThis.scaleAxes()
             }
             XYPlot(data: $plotThis).padding()
-               .onAppear { plotThis.settings = settings; plotThis.scaleAxes() }
+               .onAppear {
+                   var managedSettings = XYPlot.CoreDataManager.shared.getSettings()
+                   if managedSettings.isEmpty {
+                       managedSettings.append(Settings(context: XYPlot.CoreDataManager.shared.moc))
+                   }
+                   plotThis.settings = settings; plotThis.scaleAxes() }
         }
     }
 }
@@ -62,3 +59,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+

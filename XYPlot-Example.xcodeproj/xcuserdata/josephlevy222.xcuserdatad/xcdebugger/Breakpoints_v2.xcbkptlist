@@ -3,4 +3,22 @@
    uuid = "FACD9F4F-C4DE-4071-8DF3-66010E505307"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0C27EB0E-ADEA-446B-8676-7A96E81832C1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../Library/Developer/Xcode/DerivedData/XYPlot-Example-eyqdhaunghkyzjdxtkdeggkelbls/SourcePackages/checkouts/XYPlot/Sources/XYPlot/XYPlot.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "143"
+            endingLineNumber = "143"
+            landmarkName = "PlotPoint"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
