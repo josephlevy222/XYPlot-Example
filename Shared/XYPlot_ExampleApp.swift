@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-
 @main
 struct XYPlot_ExampleApp: App {
     var body: some Scene {

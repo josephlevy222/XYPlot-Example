@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3716DD3027FCE49500FA7A19 /* XYPlot in Frameworks */ = {isa = PBXBuildFile; productRef = 3716DD2F27FCE49500FA7A19 /* XYPlot */; };
-		3716DD3327FCE4AD00FA7A19 /* XYPlot in Frameworks */ = {isa = PBXBuildFile; productRef = 3716DD3227FCE4AD00FA7A19 /* XYPlot */; };
-		3734B18B29565434001D7C3D /* XYPlot.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3734B1892956542C001D7C3D /* XYPlot.xcdatamodeld */; };
 		3734B18C29565434001D7C3D /* XYPlot.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3734B1892956542C001D7C3D /* XYPlot.xcdatamodeld */; };
 		37546D2627FCC74100963538 /* Utilities in Frameworks */ = {isa = PBXBuildFile; productRef = 37546D2527FCC74100963538 /* Utilities */; };
 		37546D2827FCC74900963538 /* NumericTextField in Frameworks */ = {isa = PBXBuildFile; productRef = 37546D2727FCC74900963538 /* NumericTextField */; };
@@ -17,19 +14,16 @@
 		377DDD8027F4B00F0049BD40 /* XYPlot_ExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDD6F27F4B00A0049BD40 /* XYPlot_ExampleApp.swift */; };
 		377DDD8127F4B00F0049BD40 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDD7027F4B00A0049BD40 /* ContentView.swift */; };
 		377DDD8227F4B00F0049BD40 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDD7027F4B00A0049BD40 /* ContentView.swift */; };
-		377DDD8327F4B00F0049BD40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 377DDD7127F4B00E0049BD40 /* Assets.xcassets */; };
-		377DDD8427F4B00F0049BD40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 377DDD7127F4B00E0049BD40 /* Assets.xcassets */; };
+		37D713592A2586B80044619B /* XYPlot.xcdatamodeld in Resources */ = {isa = PBXBuildFile; fileRef = 3734B1892956542C001D7C3D /* XYPlot.xcdatamodeld */; };
+		37D7135C2A2587010044619B /* XYPlot in Frameworks */ = {isa = PBXBuildFile; productRef = 37D7135B2A2587010044619B /* XYPlot */; };
 		37FCFCFE27FBBD9F00EDC543 /* Utilities in Frameworks */ = {isa = PBXBuildFile; productRef = 37FCFCFD27FBBD9F00EDC543 /* Utilities */; };
 		37FCFD0127FCB66E00EDC543 /* NumericTextField in Frameworks */ = {isa = PBXBuildFile; productRef = 37FCFD0027FCB66E00EDC543 /* NumericTextField */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		37106C552962133500113409 /* Settings+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Settings+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		37106C56296214CC00113409 /* Settings+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Settings+CoreDataClass.swift"; sourceTree = "<group>"; };
 		3734B18A2956542C001D7C3D /* PlotDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PlotDataModel.xcdatamodel; sourceTree = "<group>"; };
 		377DDD6F27F4B00A0049BD40 /* XYPlot_ExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYPlot_ExampleApp.swift; sourceTree = "<group>"; };
 		377DDD7027F4B00A0049BD40 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		377DDD7127F4B00E0049BD40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		377DDD7627F4B00F0049BD40 /* XYPlot-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XYPlot-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		377DDD7C27F4B00F0049BD40 /* XYPlot-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XYPlot-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		377DDD7E27F4B00F0049BD40 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
@@ -43,7 +37,7 @@
 			files = (
 				37FCFD0127FCB66E00EDC543 /* NumericTextField in Frameworks */,
 				37FCFCFE27FBBD9F00EDC543 /* Utilities in Frameworks */,
-				3716DD3027FCE49500FA7A19 /* XYPlot in Frameworks */,
+				37D7135C2A2587010044619B /* XYPlot in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,7 +47,6 @@
 			files = (
 				37546D2827FCC74900963538 /* NumericTextField in Frameworks */,
 				37546D2627FCC74100963538 /* Utilities in Frameworks */,
-				3716DD3327FCE4AD00FA7A19 /* XYPlot in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,9 +63,6 @@
 		377DDD6927F4B00A0049BD40 = {
 			isa = PBXGroup;
 			children = (
-				37106C56296214CC00113409 /* Settings+CoreDataClass.swift */,
-				37106C552962133500113409 /* Settings+CoreDataProperties.swift */,
-				3734B1892956542C001D7C3D /* XYPlot.xcdatamodeld */,
 				377DDE0327F602A00049BD40 /* XYPlot-Example (iOS).entitlements */,
 				377DDD6E27F4B00A0049BD40 /* Shared */,
 				377DDD7D27F4B00F0049BD40 /* macOS */,
@@ -87,7 +77,7 @@
 			children = (
 				377DDD6F27F4B00A0049BD40 /* XYPlot_ExampleApp.swift */,
 				377DDD7027F4B00A0049BD40 /* ContentView.swift */,
-				377DDD7127F4B00E0049BD40 /* Assets.xcassets */,
+				3734B1892956542C001D7C3D /* XYPlot.xcdatamodeld */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -128,7 +118,7 @@
 			packageProductDependencies = (
 				37FCFCFD27FBBD9F00EDC543 /* Utilities */,
 				37FCFD0027FCB66E00EDC543 /* NumericTextField */,
-				3716DD2F27FCE49500FA7A19 /* XYPlot */,
+				37D7135B2A2587010044619B /* XYPlot */,
 			);
 			productName = "XYPlot-Example (iOS)";
 			productReference = 377DDD7627F4B00F0049BD40 /* XYPlot-Example.app */;
@@ -150,7 +140,6 @@
 			packageProductDependencies = (
 				37546D2527FCC74100963538 /* Utilities */,
 				37546D2727FCC74900963538 /* NumericTextField */,
-				3716DD3227FCE4AD00FA7A19 /* XYPlot */,
 			);
 			productName = "XYPlot-Example (macOS)";
 			productReference = 377DDD7C27F4B00F0049BD40 /* XYPlot-Example.app */;
@@ -186,7 +175,7 @@
 			packageReferences = (
 				37FCFCFC27FBBD9F00EDC543 /* XCRemoteSwiftPackageReference "Utilities" */,
 				37FCFCFF27FCB66E00EDC543 /* XCRemoteSwiftPackageReference "NumericTextField" */,
-				3716DD2E27FCE49500FA7A19 /* XCRemoteSwiftPackageReference "XYPlot" */,
+				37D7135A2A2587010044619B /* XCRemoteSwiftPackageReference "XYPlot" */,
 			);
 			productRefGroup = 377DDD7727F4B00F0049BD40 /* Products */;
 			projectDirPath = "";
@@ -203,7 +192,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				377DDD8327F4B00F0049BD40 /* Assets.xcassets in Resources */,
+				37D713592A2586B80044619B /* XYPlot.xcdatamodeld in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,7 +200,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				377DDD8427F4B00F0049BD40 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,7 +212,6 @@
 			files = (
 				377DDD8127F4B00F0049BD40 /* ContentView.swift in Sources */,
 				377DDD7F27F4B00F0049BD40 /* XYPlot_ExampleApp.swift in Sources */,
-				3734B18B29565434001D7C3D /* XYPlot.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -538,7 +525,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		3716DD2E27FCE49500FA7A19 /* XCRemoteSwiftPackageReference "XYPlot" */ = {
+		37D7135A2A2587010044619B /* XCRemoteSwiftPackageReference "XYPlot" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/josephlevy222/XYPlot.git";
 			requirement = {
@@ -565,16 +552,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		3716DD2F27FCE49500FA7A19 /* XYPlot */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 3716DD2E27FCE49500FA7A19 /* XCRemoteSwiftPackageReference "XYPlot" */;
-			productName = XYPlot;
-		};
-		3716DD3227FCE4AD00FA7A19 /* XYPlot */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 3716DD2E27FCE49500FA7A19 /* XCRemoteSwiftPackageReference "XYPlot" */;
-			productName = XYPlot;
-		};
 		37546D2527FCC74100963538 /* Utilities */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 37FCFCFC27FBBD9F00EDC543 /* XCRemoteSwiftPackageReference "Utilities" */;
@@ -584,6 +561,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 37FCFCFF27FCB66E00EDC543 /* XCRemoteSwiftPackageReference "NumericTextField" */;
 			productName = NumericTextField;
+		};
+		37D7135B2A2587010044619B /* XYPlot */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 37D7135A2A2587010044619B /* XCRemoteSwiftPackageReference "XYPlot" */;
+			productName = XYPlot;
 		};
 		37FCFCFD27FBBD9F00EDC543 /* Utilities */ = {
 			isa = XCSwiftPackageProductDependency;
