@@ -25,17 +25,6 @@ struct ContentView: View {
         }
     }
     
-//    @AppStorage("changePlotOdd") var savedShowSecondaryAxis: Bool = false {
-//        didSet {
-//            print("didSet saveShowSecondary")
-//            if savedShowSecondaryAxis
-//            } else {
-//                plotThis.plotLines[1].secondary = false
-//            }
-//            plotThis.scaleAxes()
-//        }
-//    }
-    
     @AppStorage("changeXSizeOdd") var savedXAxisAppended: Bool = false {
         didSet {
             print("didSet saveXAxisAppended")
@@ -54,13 +43,12 @@ struct ContentView: View {
     @State public var plotThis =  { // assigns original lines defined in XYPlot.swift
         let coreDataManager = XYPlot.CoreDataManager.shared
         var testData: PlotData = testPlotLines
-        var savedSettings = coreDataManager.getSettings()
+        var savedSettings = coreDataManager.getSettings() as [Settings]
         if savedSettings.isEmpty { // Make new Coredata Settings
             testData.settings.copyPlotSettingsToCoreData()
         } else {
-            testData.settings.copySettingsFromCoreData(id: savedSettings[0].objectID)
+            testData.settings.copySettingsFromCoreData(id: savedSettings[0].objectID )
             if savedSettings.count > 1 { // delete extra entities
-                
             }
         }
         var lines = coreDataManager.getLines()
